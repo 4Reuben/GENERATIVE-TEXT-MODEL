@@ -1,5 +1,4 @@
-# 📘 LSTM TEXT GENERATION MODEL (Merged Program)
-# Author: Reuben T. John (Internship Task-4)
+# LSTM TEXT GENERATION MODEL
 
 import numpy as np
 import pickle
