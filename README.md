@@ -12,8 +12,6 @@
 
 *MENTOR*: NEELA SANTOSH
 
----
-
 ## Project Description
 
 This project demonstrates text generation using an LSTM-based neural network. The objective is to train a deep learning model on a dataset of textual information and enable it to generate human-like text based on an initial prompt.
@@ -21,8 +19,6 @@ The model is trained on Wikipedia-style text to understand linguistic patterns a
 The project follows a sequential LSTM architecture combined with embedding layers to capture contextual meaning and improve text generation fluency.
 
 The script was developed as part of an internship at **CodTech IT Solutions**, and it serves as Task 4 in the internship’s deliverables.
-
----
 
 ## Technologies & Tools Used
 
@@ -33,8 +29,6 @@ The script was developed as part of an internship at **CodTech IT Solutions**, a
 - Jupyter Notebook / VS Code – Development environments
 - Command Line Interface (CLI) – For training and generating text
 - Plain Text Files (.txt) – Used as dataset input
-
----
 
 ## File Structure
 
@@ -58,8 +52,6 @@ Codtech IT Solutions/
 
 │ └── README.md # Project documentation (this file)
 
----
-
 ## How It Works
 
 - Input: Reads a text dataset (wikipedia_small.txt) for training.
@@ -68,8 +60,6 @@ Codtech IT Solutions/
 - Model Training: Trains an LSTM-based deep learning model on the tokenized text.
 - Text Generation: Takes a seed prompt and predicts the next words using the trained model.
 - Output: Displays generated text based on the input seed prompt.
-
----
 
 ## What I Did
 
@@ -80,15 +70,11 @@ Codtech IT Solutions/
 - Created a text generation function for dynamic content prediction.
 - Saved model weights and tokenizer for reuse without retraining.
 
----
-
 ## What I Didn't Do (Yet)
 
 - No character-level text generation model.
 - No integration with a web interface or chatbot.
 - No multilingual support—currently works for English text only.
-
----
 
 ## What I Learned
 
@@ -98,7 +84,6 @@ Codtech IT Solutions/
 - Debugging model training issues and hyperparameter tuning.
 - How AI can be used for creative text generation.
 
----
 
 ## Acknowledgments
 
@@ -106,3 +91,5 @@ Special thanks to **CodTech IT Solutions** for providing this opportunity.
 This project enhanced my understanding of deep learning in NLP and how LSTM models can be leveraged for text prediction tasks.
 
 ## Output
+
+![Image](https://github.com/user-attachments/assets/89603b4a-e460-4221-ae48-a289e810e092)
