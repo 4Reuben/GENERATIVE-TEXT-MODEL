@@ -46,17 +46,17 @@ Codtech IT Solutions/
 
 │ ├── dataset/
 
-│   ├── wikipedia_small.txt # Training dataset
+│ ├── ├── wikipedia_small.txt # Training dataset
 
 │ ├── models/
 
-│   ├── text_generation_lstm_model.h5 # Trained LSTM model
+│ ├──  ├── text_generation_lstm_model.h5 # Trained LSTM model
 
-│   ├── tokenizer.pkl # Tokenizer object for preprocessed text
+│ ├──  ├── tokenizer.pkl # Tokenizer object for preprocessed text
 
 │ ├── lstm_text_gen.py # Main Python script
 
-├── README.md # Project documentation (this file)
+│ ├── README.md # Project documentation (this file)
 
 ---
 
