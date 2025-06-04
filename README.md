@@ -38,16 +38,24 @@ The script was developed as part of an internship at **CodTech IT Solutions**, a
 
 ## File Structure
 
-LSTM-Text-Generation/
+Codtech IT Solutions/
+
 │
-├── dataset/
+
+├── Task-2/
+
+│ ├── dataset/
+
 │   ├── wikipedia_small.txt # Training dataset
-│
-├── models/
+
+│ ├── models/
+
 │   ├── text_generation_lstm_model.h5 # Trained LSTM model
+
 │   ├── tokenizer.pkl # Tokenizer object for preprocessed text
-│
-├── lstm_text_gen.py # Main Python script
+
+│ ├── lstm_text_gen.py # Main Python script
+
 ├── README.md # Project documentation (this file)
 
 ---
@@ -64,6 +72,7 @@ LSTM-Text-Generation/
 ---
 
 ## What I Did
+
 - Processed textual data using tokenization and padding.
 - Developed an LSTM model for sequence prediction.
 - Trained the model on a large-scale text dataset.
@@ -74,6 +83,7 @@ LSTM-Text-Generation/
 ---
 
 ## What I Didn't Do (Yet)
+
 - No character-level text generation model.
 - No integration with a web interface or chatbot.
 - No multilingual support—currently works for English text only.
@@ -81,6 +91,7 @@ LSTM-Text-Generation/
 ---
 
 ## What I Learned
+
 - How LSTM networks capture sequential patterns in text.
 - The importance of word embeddings for NLP.
 - How to train, save, and reuse deep learning models.
@@ -90,6 +101,7 @@ LSTM-Text-Generation/
 ---
 
 ## Acknowledgments
+
 Special thanks to **CodTech IT Solutions** for providing this opportunity.
 This project enhanced my understanding of deep learning in NLP and how LSTM models can be leveraged for text prediction tasks.
 
